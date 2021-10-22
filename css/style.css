@@ -6,7 +6,8 @@
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -25,10 +26,17 @@
 }
 
 .box_nested {
-    background-color: #ff99aa;
+    background-color: #f07f80;
     border: 1px solid rgb(255, 255, 255);
     height: 190px;
     line-height: 190px;
     text-align: center;
  
+}
+
+
+/* media queries */
+
+@media screen and ( min-width: 540px){
+
 }
